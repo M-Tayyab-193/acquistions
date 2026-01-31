@@ -1,0 +1,2 @@
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:02:45 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
