@@ -1,2 +1,27 @@
 {"level":"info","message":"Root endpoint accessed","service":"acquistions-api"}
 {"level":"info","message":"::1 - - [31/Jan/2026:17:02:45 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:15:26 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:15:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:15:48 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:15:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:15:55 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"","service":"acquistions-api"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:18:18 +0000] \"GET / HTTP/1.1\" 200 25 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:18:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [31/Jan/2026:17:19:54 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:12:09 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:12:21 +0000] \"POST /signup HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:13:06 +0000] \"POST /api/auth/signup HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:13:26 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 93 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User signed up with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:20:18 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User signed up with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:21:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 110 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"error","message":"Error creating user: Cannot convert undefined or null to object","service":"acquistions-api","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/drizzle-orm/utils.js:55:33)\n    at QueryPromise.returning (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/drizzle-orm/pg-core/query-builders/insert.js:75:29)\n    at createUser (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/src/services/auth.service.js:36:8)\n    at async signup (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/src/controllers/auth.controller.js:21:18)"}
+{"level":"error","message":"Signup error: Failed to create user","service":"acquistions-api","stack":"Error: Failed to create user\n    at createUser (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/src/services/auth.service.js:47:11)\n    at async signup (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:52:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 425 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"New user created with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"User signed up with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:12:54:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 126 \"-\" \"HTTPie\"","service":"acquistions-api"}
