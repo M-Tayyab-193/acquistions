@@ -25,3 +25,8 @@
 {"level":"info","message":"New user created with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
 {"level":"info","message":"User signed up with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
 {"level":"info","message":"::1 - - [02/Feb/2026:12:54:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 126 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User authenticated with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"User signed in with email: m.tayyab.92.work@gmail.com","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:13:47:47 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 126 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:13:50:22 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquistions-api"}
