@@ -32,3 +32,39 @@
 {"level":"info","message":"::1 - - [02/Feb/2026:13:50:22 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquistions-api"}
 {"level":"error","message":"Security middleware error: Cannot read properties of undefined (reading 'headers')","service":"acquistions-api","stack":"TypeError: Cannot read properties of undefined (reading 'headers')\n    at toArcjetRequest (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/@arcjet/node/index.js:111:49)\n    at Object.protect (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/node_modules/@arcjet/node/index.js:183:29)\n    at securityMiddleware (file:///C:/Users/mtayy/Desktop/Personal%20Projects/acquistions/src/middlewares/security.middleware.js:34:35)\n    at Layer.handleRequest (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\index.js:291:5)\n    at logger (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handleRequest (C:\\Users\\mtayy\\Desktop\\Personal Projects\\acquistions\\node_modules\\router\\lib\\layer.js:152:17)"}
 {"level":"info","message":"::1 - - [02/Feb/2026:16:07:08 +0000] \"GET /health HTTP/1.1\" 500 35 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:09:59 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:01 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:03 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:03 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:03 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:04 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:05 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:11 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:13 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:13 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:13 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:13 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:13 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:14 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquistions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:11:55 +0000] \"GET /health HTTP/1.1\" 403 56 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:13:13 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquistions-api"}
+{"level":"info","message":"::1 - - [02/Feb/2026:16:52:34 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquistions-api"}
