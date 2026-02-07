@@ -80,3 +80,7 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [07/Feb/2026:07:30:11 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"-\"","service":"acquistions-api"}
 {"level":"warn","message":"404 Not Found: GET /nonexistent","service":"acquistions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [07/Feb/2026:07:30:11 +0000] \"GET /nonexistent HTTP/1.1\" 404 32 \"-\" \"-\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Feb/2026:09:12:30 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Feb/2026:09:12:30 +0000] \"GET /api HTTP/1.1\" 200 29 \"-\" \"-\"","service":"acquistions-api"}
+{"level":"warn","message":"404 Not Found: GET /nonexistent","service":"acquistions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Feb/2026:09:12:30 +0000] \"GET /nonexistent HTTP/1.1\" 404 32 \"-\" \"-\"","service":"acquistions-api"}

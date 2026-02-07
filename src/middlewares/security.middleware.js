@@ -6,20 +6,17 @@ const securityMiddleware = async (req, res, next) => {
   try {
     const role = req.user?.role || 'guest';
 
-    let limit, message;
+    let limit;
 
     switch (role) {
       case 'admin':
         limit = 20; // 20 requests per interval for admins
-        message = 'Admin rate limit exceeded (20 requests per minute)';
         break;
       case 'user':
         limit = 10; // 10 requests per interval for regular users
-        message = 'User rate limit exceeded (10 requests per minute)';
         break;
       default:
         limit = 5; // 5 requests per interval for guests
-        message = 'Guest rate limit exceeded (5 requests per minute)';
     }
 
     const client = aj.withRule(
@@ -34,7 +31,7 @@ const securityMiddleware = async (req, res, next) => {
     const decision = await client.protect(req);
 
     if (decision.isDenied() && decision.reason.isBot()) {
-      logger.warn(`Blocked bot request`, {
+      logger.warn('Blocked bot request', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
         path: req.path,
@@ -44,7 +41,7 @@ const securityMiddleware = async (req, res, next) => {
     }
 
     if (decision.isDenied() && decision.reason.isShield()) {
-      logger.warn(`Shield Blocked request`, {
+      logger.warn('Shield Blocked request', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
         path: req.path,
@@ -54,7 +51,7 @@ const securityMiddleware = async (req, res, next) => {
       return;
     }
     if (decision.isDenied() && decision.reason.isRateLimit()) {
-      logger.warn(`Rate limit exceeded`, {
+      logger.warn('Rate limit exceeded', {
         ip: req.ip,
         userAgent: req.get('User-Agent'),
         path: req.path,
