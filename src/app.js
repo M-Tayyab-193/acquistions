@@ -6,6 +6,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
 import securityMiddleware from '#middlewares/security.middleware.js';
+
 const app = express();
 
 app.use(helmet());
@@ -28,7 +29,7 @@ app.get('/', (req, res) => {
 
 app.get('/health', (req, res) => {
   res.status(200).json({
-    status: 'OK',
+    status: 'Healthy',
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
   });
