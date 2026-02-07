@@ -4,6 +4,9 @@ import { slidingWindow } from '@arcjet/node';
 
 const securityMiddleware = async (req, res, next) => {
   try {
+    if (process.env.NODE_ENV === 'test') {
+      return next(); // bypass Arcjet in CI/tests
+    }
     const role = req.user?.role || 'guest';
 
     let limit;
