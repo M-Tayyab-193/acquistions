@@ -18,10 +18,18 @@ export const updateUserSchema = z
       .max(255)
       .trim()
       .optional(),
-    email: z.string().email('Invalid email address').max(255).toLowerCase().trim().optional(),
-    role: z.enum(['user', 'admin'], {
-      errorMap: () => ({ message: 'Role must be either "user" or "admin"' }),
-    }).optional(),
+    email: z
+      .string()
+      .email('Invalid email address')
+      .max(255)
+      .toLowerCase()
+      .trim()
+      .optional(),
+    role: z
+      .enum(['user', 'admin'], {
+        errorMap: () => ({ message: 'Role must be either "user" or "admin"' }),
+      })
+      .optional(),
   })
   .refine(data => Object.keys(data).length > 0, {
     message: 'At least one field must be provided for update',

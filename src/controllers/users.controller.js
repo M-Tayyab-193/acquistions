@@ -5,7 +5,10 @@ import {
   updateUser as updateUserService,
   deleteUser as deleteUserService,
 } from '#services/users.service.js';
-import { userIdSchema, updateUserSchema } from '#validations/users.validation.js';
+import {
+  userIdSchema,
+  updateUserSchema,
+} from '#validations/users.validation.js';
 import { formatValidationErrors } from '#utils/format.js';
 
 export const getAllUsers = async (req, res, next) => {
